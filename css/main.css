@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(135, 65, 65);
+    background-color: rgb(186, 157, 157);
 }
 p {
-    font-size: 50px;
+    font-size: 20px;
+}
+img {
+    height: 300px;
+    width: 200px;
 }
