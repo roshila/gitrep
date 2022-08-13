@@ -7,6 +7,9 @@
  */
 //ещё один пример модуля, модуль os, который предоставляет информацию об окружении и операционной системе или просто выводит имя текущего пользователя
 const os = require("os");
+const greeting = require("./greetingmodule");
 //получим имя текущего пользователя
 let userName = os.userInfo().username;
-console.log(userName);
+
+console.log(`Дата запроса: ${greeting.date}`);
+console.log(greeting.getMessage(userName));
