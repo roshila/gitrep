@@ -1,7 +1,3 @@
-from unicodedata import name
-
-
-hello = "Hello,"
-name = input("Please, print your name")
-greeting = hello + name
+name = input("what is your name?")
+greeting = "Hello," + name
 print(greeting)
