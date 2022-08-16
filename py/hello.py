@@ -1,4 +1,7 @@
-a = "First row \n"
-b = "Second row"
-c = a + b 
-print(c)
+from unicodedata import name
+
+
+hello = "Hello,"
+name = input("Please, print your name")
+greeting = hello + name
+print(greeting)
