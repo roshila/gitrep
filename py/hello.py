@@ -1,6 +1,12 @@
-a=input("please,print a")
-b=input("pleasemprint b")
-tmp=a
-a=b
-b=tmp
+a = "Строка с \" двойной кавычкой и \' одинарной кавычкой"
+b = "Строка с обратным слешем \\"
+c = "Первая строка \nВторая строка"
+d = """Первая строка
+вторая строка"""
+e = '''first row
+second row'''
+print(a)
 print(b)
+print(c)
+print(d)
+print(e)
