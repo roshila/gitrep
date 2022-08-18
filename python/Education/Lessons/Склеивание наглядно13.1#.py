@@ -14,3 +14,8 @@ print('hello,' + name)
 
 #МОЖНО ЕЩЁ КОРОЧЕ, ОДНОСТРОЧНЫЙ КОД РУЛИТ
 print('hello, ' + input('what is your name?'))
+
+hello = 'Привет пользователь'
+name = input('представься')
+greeting = ("Привет," + name)
+print(greeting)

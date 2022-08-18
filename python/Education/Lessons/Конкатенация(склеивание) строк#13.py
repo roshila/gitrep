@@ -7,3 +7,8 @@ a = "First row"
 b = "Second row"
 c = b + a 
 print(c)
+
+a = "склеиваем строки бесплатно,"
+b = "без регистрации и смс"
+c = a + b 
+print(c)
