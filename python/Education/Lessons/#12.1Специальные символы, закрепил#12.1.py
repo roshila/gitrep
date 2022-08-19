@@ -5,3 +5,6 @@ print(b)
 c = a + b 
 print(c)
 print(a,b,c)
+
+
+# то же что и 12 или удалить 

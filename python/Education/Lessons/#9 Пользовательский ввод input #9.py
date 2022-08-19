@@ -9,3 +9,5 @@ print("hello," , input('what is your name?'))
 
 temp = input('Please, print your text')
 print(temp)
+
+#соединить с print 
