@@ -19,3 +19,6 @@ print(foo[0])
 foo = 'hello'
 i = 0
 print(foo[i], foo[i + 1])
+string = input()
+if len(string) >= 2: print(string[0], string[-1])
+else:print('Ошибка')
